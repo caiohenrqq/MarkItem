@@ -12,7 +12,7 @@ Modern and clean design with blue color scheme
 To get started with MarkItem, simply clone this repository to your local machine and open the index.html file in your web browser.
 
 ```
-$ git clone https://github.com/your-username/MarkItem.git
+$ git clone https://github.com/caiohenrqq/MarkItem.git
 $ cd MarkItem
 $ open index.html
 ```
