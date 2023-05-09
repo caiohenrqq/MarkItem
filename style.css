@@ -1,0 +1,112 @@
+/* estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F1F5FE;
+    color: #3B3B3B;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 600px;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  li span {
+    flex: 1;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3B3B3B;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #2D2D2D;
+  }
+  
+  #removerConcluidos {
+    background-color: #ccc;
+    color: #3B3B3B;
+  }
+  
+  #removerConcluidos:hover {
+    background-color: #bfbfbf;
+  }
+  
+  /* responsividade */
+  @media (max-width: 600px) {
+    li {
+      flex-wrap: wrap;
+    }
+  
+    li input[type="checkbox"] {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  
+    li span {
+      flex-basis: 100%;
+      margin-left: 0;
+    }
+  
+    form {
+      flex-wrap: wrap;
+    }
+  
+    form input[type="text"] {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+  
+    form button {
+      flex-basis: 100%;
+      margin-left: 0;
+    }
+  }
+  
