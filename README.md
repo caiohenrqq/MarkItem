@@ -6,7 +6,7 @@ Add new items to the list
 Mark items as completed by checking a checkbox next to the item
 Remove completed items from the list
 Reset the list by removing all items
-Modern and clean design with blue color scheme
+Modern and clean design
 
 ## Getting Started
 To get started with MarkItem, simply clone this repository to your local machine and open the index.html file in your web browser.
