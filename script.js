@@ -1,12 +1,14 @@
 const form = document.querySelector('form');
-
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // impede o envio padrão do formulário
-  const novoItem = document.querySelector('#novoItem').value;
-  adicionarItem(novoItem);
-  document.querySelector('form').reset(); // limpa o campo de texto do formulário
+  const novoItemInput = document.querySelector('#novoItem');
+  const novoItem = novoItemInput.value.trim();
+  if (novoItem !== '') {
+    adicionarItem(novoItem);
+    novoItemInput.value = ''; // limpa o campo de texto do formulário
+  }
+  
 });
-
 function adicionarItem(texto) {
     const lista = document.querySelector('#lista');
     const novoItem = document.createElement('li');
